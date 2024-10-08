@@ -10,7 +10,7 @@ export default function Form1() {
     console.log("Form Submitted");
   };
   return (
-    <div className="flex justify-center items-center mt-20 border-4 border-black w-[40%] m-auto">
+    <div className="flex rounded justify-center items-center mt-20 border-4 border-black w-[40%] m-auto">
       <form
         action=""
         onSubmit={handleSubmit}
